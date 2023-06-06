@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from config import Config
 from .api.routes import api
 from .site.routes import site
-from .authentication.routes import auth
+from .authentications.routes import auth
 
 
 from flask_sqlalchemy import SQLAlchemy
